@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-08-20 19:52:03">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Changes to PPS Risk form</description>
+<inserted/>
+<name>PPS Risk Register</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>2bff84330f6b1f0061981d2be1050e4c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>64518ea9dbc0e300db3459b2ca961947</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_risk_u_program_support_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_program_support" label="Requires Program Management Support" language="en" table="risk"><sys_documentation action="INSERT_OR_UPDATE"><element>u_program_support</element><help/><hint/><label>Requires Program Management Support</label><language>en</language><name>risk</name><plural>Requires Program Management Supports</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:59:13</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>5fb8a2770f6f1f0061981d2be1050ecb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requires Program Management Support</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_risk_u_program_support_en</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:59:13</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1890967129</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>205102e9dbc0e300db3459b2ca96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fd829f2d0000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Requires Program Management Support</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>9bb8a277b16f1f00cc3e523bf533c9d1</update_guid>
+<update_guid_history>9bb8a277b16f1f00cc3e523bf533c9d1:1890967129</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_risk_probability</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="probability" table="risk" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>probability</element><hint>5 - 20% probability</hint><inactive>false</inactive><label>1 - Not Likely</label><language>en</language><name>risk</name><sequence>1</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 16:35:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>917768fb0f6b1f0061981d2be1050ee3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:35:29</sys_updated_on><value>1</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>probability</element><hint/><inactive>true</inactive><label>Absolute</label><language>en</language><name>risk</name><sequence>1</sequence><sys_created_by>system</sys_created_by><sys_created_on>2018-07-11 14:54:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>04adf66c0f5b130061981d2be1050e58</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:33:50</sys_updated_on><value>absolute</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>probability</element><hint>21 - 40% probability</hint><inactive>false</inactive><label>2 - Low</label><language>en</language><name>risk</name><sequence>2</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 16:35:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>28d728fb0f6b1f0061981d2be1050e4a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:35:58</sys_updated_on><value>2</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>probability</element><hint/><inactive>true</inactive><label>High</label><language>en</language><name>risk</name><sequence>2</sequence><sys_created_by>system</sys_created_by><sys_created_on>2018-07-11 14:54:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>44adf66c0f5b130061981d2be1050e58</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:33:50</sys_updated_on><value>high</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>probability</element><hint>41 - 60% probability</hint><inactive>false</inactive><label>3 - Likely</label><language>en</language><name>risk</name><sequence>3</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 16:36:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c0f7a4fb0f6b1f0061981d2be1050eab</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:36:28</sys_updated_on><value>3</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>probability</element><hint/><inactive>true</inactive><label>Moderate</label><language>en</language><name>risk</name><sequence>3</sequence><sys_created_by>system</sys_created_by><sys_created_on>2018-07-11 14:54:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>84adf66c0f5b130061981d2be1050e58</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:33:50</sys_updated_on><value>moderate</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>probability</element><hint>61 - 80% probability</hint><inactive>false</inactive><label>4 - Highly Likely</label><language>en</language><name>risk</name><sequence>4</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 16:37:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>911860fb0f6b1f0061981d2be1050ebd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:37:06</sys_updated_on><value>4</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>probability</element><hint/><inactive>true</inactive><label>Low</label><language>en</language><name>risk</name><sequence>4</sequence><sys_created_by>system</sys_created_by><sys_created_on>2018-07-11 14:54:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c4adf66c0f5b130061981d2be1050e58</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:33:49</sys_updated_on><value>low</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>probability</element><hint>81 - 99% probability</hint><inactive>false</inactive><label>5 - Near Certainty</label><language>en</language><name>risk</name><sequence>5</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 16:37:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3728a8fb0f6b1f0061981d2be1050e34</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:37:33</sys_updated_on><value>5</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>probability</element><name>risk</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2018-07-11 14:54:30</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>c8adf66c0f5b130061981d2be1050e58</sys_id><sys_mod_count>0</sys_mod_count><sys_name>probability</sys_name><sys_package display_value="Project Management" source="com.snc.project_management_v3">f07db62c0f5b130061981d2be1050e03</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_risk_probability</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2018-07-11 14:54:30</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<payload_hash>-1491745608</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>20518ea9dbc0e300db3459b2ca961948</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fb8065070000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Probability</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>3b28a8fb2c6b1f003595fd4b38c11a37</update_guid>
+<update_guid_history>3b28a8fb2c6b1f003595fd4b38c11a37:-1491745608,dd18acfb986b1f00e403183ae40c1ad1:-925757774,c0f7a4fbad6b1f00d36d36750f5e8eae:1508364243,a4d728fb826b1f008423523556cf524d:753139058,71b728fb436b1f0062ef67a07bf03449:1598174384,9d5728fb146b1f00db5a76250bf02b57:1829298496,995728fb766b1f00ae79bb0633674b53:1458851089,955728fb0b6b1f00c30e89e90dcdfb4f:-663539582,1157e0fb186b1f0055569b2fc1db07ba:-834862203,5557e0fb266b1f00239b59e1862611b8:-1836827348</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_risk_u_risk_owner</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_risk_owner" table="risk"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Risk Owner&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_risk_owner&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;risk&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dan.gruber&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-02 17:48:27&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;8b1838f30fab1f0061981d2be1050e5e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Risk Owner&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_risk_u_risk_owner&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dan.gruber&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-08-02 17:48:27&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2057828617</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>20518ea9dbc0e300db3459b2ca96194b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fbc152380000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Risk Owner</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>2268b8f34eab1f00e1c6bcf7efffc4c4</update_guid>
+<update_guid_history>2268b8f34eab1f00e1c6bcf7efffc4c4:2057828617</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_issue_u_issue_program_support_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_issue_program_support" label="Requires Program Management Support" language="en" table="issue"><sys_documentation action="INSERT_OR_UPDATE"><element>u_issue_program_support</element><help/><hint/><label>Requires Program Management Support</label><language>en</language><name>issue</name><plural>Requires Program Management Supports</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-06 11:11:35</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>40f38c410ffb9f0061981d2be1050ec9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requires Program Management Support</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_issue_u_issue_program_support_en</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-06 11:11:35</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1147011099</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>245102e9dbc0e300db3459b2ca96197b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1650eef6ac40000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>issue</table>
+<target_name>Issue.Requires Program Management Support</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>84f3c0812cfb9f00e54deac695920592</update_guid>
+<update_guid_history>84f3c0812cfb9f00e54deac695920592:-1147011099</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_style_054ff0b70fab1f0061981d2be1050e44</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><alt/><element>u_risk_score</element><name>risk</name><style>background-color:red</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 18:18:23</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>054ff0b70fab1f0061981d2be1050e44</sys_id><sys_mod_count>1</sys_mod_count><sys_name>risk</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_style_054ff0b70fab1f0061981d2be1050e44</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 19:11:45</sys_updated_on><value>javascript: current.u_risk_score &gt;14</value></sys_ui_style></record_update>]]></payload>
+<payload_hash>-1891359917</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>245102e9dbc0e300db3459b2ca96197e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fc0d94b80000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>risk</target_name>
+<type>Style</type>
+<update_domain>global</update_domain>
+<update_guid>ba7b09f7deab1f00127799b416fef2bc</update_guid>
+<update_guid_history>ba7b09f7deab1f00127799b416fef2bc:-1891359917,c54ff0b71fab1f00de432b87035af445:-429779918</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_risk_u_risk_categories</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_risk_categories" table="risk"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice&gt;1&lt;/choice&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Risk Categories&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_risk_categories&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Choice"&gt;choice&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;100&lt;/max_length&gt;&lt;name&gt;risk&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dan.gruber&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-02 20:00:37&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;7f76dd330feb1f0061981d2be1050e05&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Risk Categories&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_risk_u_risk_categories&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dan.gruber&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-08-02 20:00:37&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1308376239</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>24518ea9dbc0e300db3459b2ca96194a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fc3a50270000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Risk Categories</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>a2a61173c7eb1f0027271890711f759b</update_guid>
+<update_guid_history>a2a61173c7eb1f0027271890711f759b:-1308376239</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_risk_u_risk_strategy_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_risk_strategy" label="Risk Strategy" language="en" table="risk"><sys_documentation action="INSERT_OR_UPDATE"><element>u_risk_strategy</element><help/><hint/><label>Risk Strategy</label><language>en</language><name>risk</name><plural>Risk Strategys</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:51:23</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>34f6aaf30f6f1f0061981d2be1050e25</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Risk Strategy</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_risk_u_risk_strategy_en</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:51:23</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>936901427</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>285102e9dbc0e300db3459b2ca96197d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fd7b75880000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Risk Strategy</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>78f6aaf3ee6f1f00b6b9a443e551582a</update_guid>
+<update_guid_history>78f6aaf3ee6f1f00b6b9a443e551582a:936901427</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_risk_short_description</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="short_description" table="risk"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Risk Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>true</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>short_description</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>true</mandatory><max_length>100</max_length><name>risk</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2014-09-27 03:44:37</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b39df66c0f5b130061981d2be1050e38</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Risk Name</sys_name><sys_package display_value="Demand Management" source="com.snc.demand_management">94ad3a6c0f5b130061981d2be1050e21</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_risk_short_description</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 19:59:06</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>997065525</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>28518ea9dbc0e300db3459b2ca961949</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fc38ed8e0000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Risk Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>58565d3315eb1f0067383a656270e014</update_guid>
+<update_guid_history>58565d3315eb1f0067383a656270e014:997065525,dc5699ff85ab1f007d5de62a0a9e1da0:-1013250132</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_risk_u_risk_description_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_risk_description" label="Risk Description If (event), Then (impact)" language="en" table="risk"><sys_documentation action="INSERT_OR_UPDATE"><element>u_risk_description</element><help/><hint/><label>Risk Description If (event), Then (impact)</label><language>en</language><name>risk</name><plural>Risk Description If (event), Then (impact)</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 17:49:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>76a87cf30fab1f0061981d2be1050e2f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Risk Description If (event), Then (impact)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_risk_u_risk_description_en</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 19:55:57</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2024469188</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>2c5102e9dbc0e300db3459b2ca96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fc360aec0000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Risk Description If (event), Then (impact)</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>c69595337deb1f00819edc5b2bb0cb5a</update_guid>
+<update_guid_history>c69595337deb1f00819edc5b2bb0cb5a:-2024469188,8ba87cf3ebab1f00fd9f5a2cbc19c734:-445141387</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_risk_u_risk_strategy</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_risk_strategy" table="risk" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_strategy</element><hint/><inactive>false</inactive><label>Accept</label><language>en</language><name>risk</name><sequence>1</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:51:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e9f66ab30f6f1f0061981d2be1050ea9</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:51:48</sys_updated_on><value>accept</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_strategy</element><hint/><inactive>false</inactive><label>Mitigate</label><language>en</language><name>risk</name><sequence>2</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:51:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c10766f30f6f1f0061981d2be1050e47</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:52:03</sys_updated_on><value>mitigate</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_strategy</element><hint/><inactive>false</inactive><label>Avoid</label><language>en</language><name>risk</name><sequence>3</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:52:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3817aaf30f6f1f0061981d2be1050e9f</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:52:16</sys_updated_on><value>avoid</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_risk_strategy</element><name>risk</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:51:41</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>0507eaf30f6f1f0061981d2be1050e42</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_risk_strategy</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_risk_u_risk_strategy</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:51:41</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<payload_hash>-1740927982</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>2c518ea9dbc0e300db3459b2ca961948</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fd7c417f0000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Risk Strategy</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>e9276af3796f1f001b7f9d9b2759fca1</update_guid>
+<update_guid_history>e9276af3796f1f001b7f9d9b2759fca1:-1740927982,2c27aaf3e36f1f0032fb7e6fe8fdf42e:-1552508508,bf172ef3e96f1f00e9bf960807d78108:-1394208260,5a17eaf34f6f1f0083056048577e34d6:1965964767,ad172af33b6f1f00eceafda32e760a53:-35111932,fc17e6f3de6f1f0052602f6054778442:119747327,ba07eaf34f6f1f00a98dec9e3e906869:553440611,ad07aaf31d6f1f00c4015df24fca9ebd:-495111881,8107eaf33c6f1f0096c0608bfcc29243:2052004808</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_risk_u_risk_strategy</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_risk_strategy" table="risk"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice&gt;1&lt;/choice&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Risk Strategy&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_risk_strategy&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Choice"&gt;choice&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;50&lt;/max_length&gt;&lt;name&gt;risk&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dan.gruber&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-03 01:51:23&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;57d66af30f6f1f0061981d2be1050e9b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Risk Strategy&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_risk_u_risk_strategy&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dan.gruber&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-08-03 01:51:23&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-787455847</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>605102e9dbc0e300db3459b2ca96197b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fd7b756b0000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Risk Strategy</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b4f6aaf3446f1f0007237f0601bfe929</update_guid>
+<update_guid_history>b4f6aaf3446f1f0007237f0601bfe929:-787455847</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_cd8d64a113af1b00bb9e56022244b0a0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="cd8d64a113af1b00bb9e56022244b0a0" sys_domain="global" table="issue" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-06 11:13:34</sys_created_on><sys_id>05640c810ffb9f0061981d2be1050e5a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="issue" sys_domain="global" view="Default view">cd8d64a113af1b00bb9e56022244b0a0</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-06 11:13:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>1</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-06 11:13:34</sys_created_on><sys_id>85640c810ffb9f0061981d2be1050e5a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="issue" sys_domain="global" view="Default view">cd8d64a113af1b00bb9e56022244b0a0</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-06 11:13:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>priority</element><position>2</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-06 11:13:34</sys_created_on><sys_id>09640c810ffb9f0061981d2be1050e5a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="issue" sys_domain="global" view="Default view">cd8d64a113af1b00bb9e56022244b0a0</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-06 11:13:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_issue_program_support</element><position>3</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-06 11:13:34</sys_created_on><sys_id>89640c810ffb9f0061981d2be1050e5a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="issue" sys_domain="global" view="Default view">cd8d64a113af1b00bb9e56022244b0a0</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-06 11:13:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-06 11:13:34</sys_created_on><sys_id>0d640c810ffb9f0061981d2be1050e5a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="issue" sys_domain="global" view="Default view">cd8d64a113af1b00bb9e56022244b0a0</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-06 11:13:34</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>parent</element><position>5</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-06 11:13:34</sys_created_on><sys_id>8d640c810ffb9f0061981d2be1050e5a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="issue" sys_domain="global" view="Default view">cd8d64a113af1b00bb9e56022244b0a0</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-06 11:13:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>6</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-06 11:13:34</sys_created_on><sys_id>01640c810ffb9f0061981d2be1050e5b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="issue" sys_domain="global" view="Default view">cd8d64a113af1b00bb9e56022244b0a0</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-06 11:13:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>7</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-06 11:13:34</sys_created_on><sys_id>81640c810ffb9f0061981d2be1050e5b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="issue" sys_domain="global" view="Default view">cd8d64a113af1b00bb9e56022244b0a0</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-06 11:13:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>8</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-06 11:13:34</sys_created_on><sys_id>05640c810ffb9f0061981d2be1050e5b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="issue" sys_domain="global" view="Default view">cd8d64a113af1b00bb9e56022244b0a0</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-06 11:13:34</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>9</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-06 11:13:34</sys_created_on><sys_id>85640c810ffb9f0061981d2be1050e5b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="issue" sys_domain="global" view="Default view">cd8d64a113af1b00bb9e56022244b0a0</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-06 11:13:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>10</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-06 11:13:34</sys_created_on><sys_id>09640c810ffb9f0061981d2be1050e5b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="issue" sys_domain="global" view="Default view">cd8d64a113af1b00bb9e56022244b0a0</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-06 11:13:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes</element><position>11</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-06 11:13:34</sys_created_on><sys_id>89640c810ffb9f0061981d2be1050e5b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="issue" sys_domain="global" view="Default view">cd8d64a113af1b00bb9e56022244b0a0</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-06 11:13:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>12</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-06 11:13:34</sys_created_on><sys_id>0d640c810ffb9f0061981d2be1050e5b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter><sys_ui_section caption="NULL" display_value="" name="issue" sys_domain="global" view="Default view">cd8d64a113af1b00bb9e56022244b0a0</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-06 11:13:34</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>issue</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>joepfm</sys_created_by><sys_created_on>2018-07-26 17:14:30</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cd8d64a113af1b00bb9e56022244b0a0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>issue</sys_name><sys_overrides/><sys_package display_value="Project Management" source="com.snc.project_management_v3">f07db62c0f5b130061981d2be1050e03</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_cd8d64a113af1b00bb9e56022244b0a0</sys_update_name><sys_updated_by>joepfm</sys_updated_by><sys_updated_on>2018-07-26 17:14:30</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-2121615136</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>605102e9dbc0e300db3459b2ca96197e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1650ef139cb0000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>issue</table>
+<target_name>Issue</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>85640c8106fb9f003a3196416625b25e</update_guid>
+<update_guid_history>85640c8106fb9f003a3196416625b25e:-2121615136,8e34848112fb9f0073a9e3cac412d407:2143262524,04f38c41c8fb9f002dfd4db4a4b821c8:-1689588866,47a3008102fb9f00cb89aa174182c298:1453447773,c7a34841b1fb9f0086c0cc5c471704dc:1896788280</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_risk_u_risc_date_identified</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_risc_date_identified" table="risk"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Date Identified&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_risc_date_identified&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value=""&gt;glide_date&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;risk&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dan.gruber&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-02 19:57:37&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;a1d559330feb1f0061981d2be1050e0b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Date Identified&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_risk_u_risc_date_identified&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dan.gruber&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-08-02 19:57:37&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1220533858</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>60518ea9dbc0e300db3459b2ca96194a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fc37924a0000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Date Identified</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>62f599337ceb1f0000df081d665c473d</update_guid>
+<update_guid_history>62f599337ceb1f0000df081d665c473d:-1220533858</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_risk_u_risk_score_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_risk_score" label="Risk Score" language="en" table="risk"><sys_documentation action="INSERT_OR_UPDATE"><element>u_risk_score</element><help/><hint/><label>Risk Score</label><language>en</language><name>risk</name><plural>Risk Scores</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 17:28:01</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>1bb3f0730fab1f0061981d2be1050e1c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Risk Score</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_risk_u_risk_score_en</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 17:28:01</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1160884873</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>645102e9dbc0e300db3459b2ca96197d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fbae9c300000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Risk Score</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>dfb3f07331ab1f00780a5be958bb7221</update_guid>
+<update_guid_history>dfb3f07331ab1f00780a5be958bb7221:1160884873,97937073ffab1f001355bcdeeae071a2:-777084519,80c8e03f116b1f00781cb5b6116674e4:1160884873</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_risk_probability</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="probability" table="risk"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>3</choice><choice_field/><choice_table/><column_label>Probability</column_label><comments/><create_roles/><default_value>1</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>probability</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>risk</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2018-07-11 14:54:30</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3b9df66c0f5b130061981d2be1050e3e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Probability</sys_name><sys_package display_value="Project Management" source="com.snc.project_management_v3">f07db62c0f5b130061981d2be1050e03</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_risk_probability</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:34:15</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-2114784615</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>64518ea9dbc0e300db3459b2ca961949</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fb7d610b0000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Probability</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e76760fb336b1f00120803cdccc1ffae</update_guid>
+<update_guid_history>e76760fb336b1f00120803cdccc1ffae:-2114784615,276760fbf46b1f00452ea5f082acdaaa:100588310</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_risk_u_risk_comment_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_risk_comment" label="Comments/Status" language="en" table="risk"><sys_documentation action="INSERT_OR_UPDATE"><element>u_risk_comment</element><help/><hint/><label>Comments/Status</label><language>en</language><name>risk</name><plural>Comments/Status</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 18:22:04</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>f6100db70fab1f0061981d2be1050e26</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Comments/Status</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_risk_u_risk_comment_en</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 18:22:04</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>98677576</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>685102e9dbc0e300db3459b2ca96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fbe016900000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Comments/Status</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>f21081f7c6ab1f00db2ed40c88945f19</update_guid>
+<update_guid_history>f21081f7c6ab1f00db2ed40c88945f19:98677576</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_risk_impact</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="impact" table="risk" version="3"><sys_choice_set action="DELETE"><element>impact</element><name>risk</name><sys_class_name/><sys_created_by>dan.gruber</sys_created_by><sys_created_on/><sys_customer_update>false</sys_customer_update><sys_id>dae698b30f6b1f0061981d2be1050ec1</sys_id><sys_mod_count/><sys_name>impact</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_risk_impact</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:27:50</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<payload_hash>2139796303</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>68518ea9dbc0e300db3459b2ca961947</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fb777f930000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.impact</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>9df5a8bba96b1f005415458541bc73f8</update_guid>
+<update_guid_history>9df5a8bba96b1f005415458541bc73f8:2139796303,5df5a8bb706b1f008d2a7cee020bb8f4:-1905398396,ddf5a8bbd96b1f0017c865e77adcf0bf:2006855021,d9f5a8bbec6b1f00d23d7900b342eabc:1532907440,55f5a8bb646b1f00de4768f53b405eb9:508033075,5fb420bbcd6b1f0083ac61253a7771a9:-367239322,83b420bbce6b1f008635d8d326eeeca6:95943969,cc4c18b7856b1f00c7e5121aba3f6330:-1995524840,5909d437d96b1f00e441f2565e1e35c4:-1480907569,203758f32c6b1f00890857f7ea8157d1:-367239322,d82798f3aa6b1f0034b25843dd0e9256:508033075,3f0758f3ca6b1f00ef5288514922ffcc:-339934096,ebf698b3186b1f002585dfa4f1ce6ec6:1924286879,5ee698b3d96b1f00ccddc62e5326afc2:-2024777010</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_risk_u_risk_impact</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_risk_impact" table="risk" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_impact</element><hint>Minimal consequence to performance, but no overall impact; goals and deadlines will be met.  No schedule slip.</hint><inactive>false</inactive><label>1 - Minimal</label><language>en</language><name>risk</name><sequence>1</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 16:29:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d546acbb0f6b1f0061981d2be1050e95</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:29:38</sys_updated_on><value>1</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_impact</element><hint>Minor reduction in business/functional/technical performance, but can be tolerated; little impact. Schedule slip but will meet Project Management Plan deadlines.</hint><inactive>false</inactive><label>2 - Minor</label><language>en</language><name>risk</name><sequence>2</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 16:30:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0376acbb0f6b1f0061981d2be1050e7f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:30:07</sys_updated_on><value>2</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_impact</element><hint>Moderate shortfall in business/functional/technical performance, with limited impact.  Schedule slip impacts Project Management Plan.</hint><inactive>false</inactive><label>3 - Moderate</label><language>en</language><name>risk</name><sequence>3</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 16:30:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6f86acbb0f6b1f0061981d2be1050ea4</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:30:37</sys_updated_on><value>3</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_impact</element><hint>Significant degradation in business/functional/technical performance, unacceptably below goals.  Requires critical change to Project Management Plan.  </hint><inactive>false</inactive><label>4 - Significant</label><language>en</language><name>risk</name><sequence>4</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 16:31:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f0b6acbb0f6b1f0061981d2be1050e87</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:31:04</sys_updated_on><value>4</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_impact</element><hint>Severe degradation in business/functional/technical threshold performance; jeopardizes project success.  Cannot meet key Project Management Plan deadlines.</hint><inactive>false</inactive><label>5 - Severe</label><language>en</language><name>risk</name><sequence>5</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 16:31:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>30d6e8bb0f6b1f0061981d2be1050ec8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:31:36</sys_updated_on><value>5</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_risk_impact</element><name>risk</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 16:29:38</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>4466ecbb0f6b1f0061981d2be1050e6a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_risk_impact</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_risk_u_risk_impact</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:29:38</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<payload_hash>993573867</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>68518ea9dbc0e300db3459b2ca961948</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fb7af6550000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Impact</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>3cd6e8bb586b1f00d6c8b4815e4201ca</update_guid>
+<update_guid_history>3cd6e8bb586b1f00d6c8b4815e4201ca:993573867,7cb6acbb7d6b1f00b47271a2bc1b0689:-1248991117,1e96acbb036b1f00f84d7ba7ac65c485:-2038685728,6786acbb916b1f0001bea98b64a3d1a7:2099389729,8776acbbb66b1f0023e8aa219166d981:-934423599,0466ecbb386b1f00f97d38e22848f26b:428167140</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_risk_u_current_status_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_current_status" label="Current Status" language="en" table="risk"><sys_documentation action="INSERT_OR_UPDATE"><element>u_current_status</element><help/><hint/><label>Current Status</label><language>en</language><name>risk</name><plural>Current Status</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:47:16</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>d40662f30f6f1f0061981d2be1050ec8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Current Status</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_risk_u_current_status_en</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:47:16</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-506537132</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>6c5102e9dbc0e300db3459b2ca96197b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fd77aebc0000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Current Status</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>5c0662f38a6f1f00663655713f36abcd</update_guid>
+<update_guid_history>5c0662f38a6f1f00663655713f36abcd:-506537132</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_risk_u_risk_impact</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_risk_impact" table="risk"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice&gt;3&lt;/choice&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Impact&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;1&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_risk_impact&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Choice"&gt;choice&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;50&lt;/max_length&gt;&lt;name&gt;risk&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dan.gruber&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-02 16:29:03&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;09266cbb0f6b1f0061981d2be1050e12&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Impact&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_risk_u_risk_impact&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dan.gruber&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-08-02 16:32:54&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1985395581</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>6c518ea9dbc0e300db3459b2ca96194a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fb7c255c0000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Impact</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>ff1724fb306b1f0001b34b9065fed5ec</update_guid>
+<update_guid_history>ff1724fb306b1f0001b34b9065fed5ec:-1985395581,b10724fb516b1f00ea0abdae2348c983:-1504707839,9f366cbbec6b1f00b4eed5d8b1a429d3:-528012833</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_risk_u_risk_owner_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_risk_owner" label="Risk Owner" language="en" table="risk"><sys_documentation action="INSERT_OR_UPDATE"><element>u_risk_owner</element><help/><hint/><label>Risk Owner</label><language>en</language><name>risk</name><plural>Risk Owners</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 17:48:27</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>2e6830f30fab1f0061981d2be1050e26</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Risk Owner</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_risk_u_risk_owner_en</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 17:48:27</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1196594183</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>a05102e9dbc0e300db3459b2ca96197d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fbc1526f0000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Risk Owner</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e268b8f327ab1f0098364f489b04dcc5</update_guid>
+<update_guid_history>e268b8f327ab1f0098364f489b04dcc5:1196594183</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_risk_mitigation</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="mitigation" table="risk"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Mitigation / Response plan</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>mitigation</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>4000</max_length><name>risk</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>true</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2018-07-11 14:54:30</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b79df66c0f5b130061981d2be1050e3c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Mitigation / Response plan</sys_name><sys_package display_value="Project Management" source="com.snc.project_management_v3">f07db62c0f5b130061981d2be1050e03</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_risk_mitigation</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 19:56:32</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1723162463</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>a0518ea9dbc0e300db3459b2ca961949</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fc36920c0000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Mitigation / Response plan</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>eab5d53314eb1f005fa2580bb93c6578</update_guid>
+<update_guid_history>eab5d53314eb1f005fa2580bb93c6578:-1723162463,2ab5d533e0eb1f00ae0c8c57c86ae774:-2051559497</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_risk_u_risk_categories_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_risk_categories" label="Risk Categories" language="en" table="risk"><sys_documentation action="INSERT_OR_UPDATE"><element>u_risk_categories</element><help/><hint/><label>Risk Categories</label><language>en</language><name>risk</name><plural>Risk Categories</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 20:00:37</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>22a611730feb1f0061981d2be1050e97</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Risk Categories</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_risk_u_risk_categories_en</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 20:00:37</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1802199408</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>a45102e9dbc0e300db3459b2ca96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fc3a50460000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Risk Categories</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>66a61173f2eb1f00d0c0ecd05ef7219c</update_guid>
+<update_guid_history>66a61173f2eb1f00d0c0ecd05ef7219c:1802199408</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_risk_u_risk_categories</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_risk_categories" table="risk" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk associated with schedule slippages, either from lack of internal controls or those associated with late delivery by vendors, resulting in missed milestones.</hint><inactive>false</inactive><label>Schedule</label><language>en</language><name>risk</name><sequence>1</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 20:01:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1cb651730feb1f0061981d2be1050e60</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 20:01:43</sys_updated_on><value>schedule</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk associated with "cost creep" or miscalculation of initial costs that result in an inaccurate baseline against which to estimate and compare future costs.</hint><inactive>false</inactive><label>Initial costs</label><language>en</language><name>risk</name><sequence>2</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 20:02:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9817d13f0fab1f0061981d2be1050e90</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 20:02:23</sys_updated_on><value>initial_cost</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk associated with misestimating life-cycle costs and exceeding forecasts, reliance on a small number of vendors without sufficient cost controls.</hint><inactive>false</inactive><label>Life-cycle</label><language>en</language><name>risk</name><sequence>3</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 20:03:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2c4711730feb1f0061981d2be1050e9d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 20:03:13</sys_updated_on><value>life_cycle</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk associated with technology that becomes obsolete before the completion of the life cycle and cannot provide the planned and desired functionality.</hint><inactive>false</inactive><label>Technical obsolescence</label><language>en</language><name>risk</name><sequence>4</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:07:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9e8c9e7f0f2f1f0061981d2be1050e2e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:07:19</sys_updated_on><value>technical_obsolescence</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk that the proposed alternative fails to result in the desired technological outcomes; risk that business goals of the program or initiative will not be achieved; risk that the program effectiveness targeted by the project will not be achieved.</hint><inactive>false</inactive><label>Feasibility</label><language>en</language><name>risk</name><sequence>5</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:08:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>453d9e7f0f2f1f0061981d2be1050e33</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:08:48</sys_updated_on><value>feasibility</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk associated with vulnerability/integrity of systems.</hint><inactive>false</inactive><label>Reliability of systems</label><language>en</language><name>risk</name><sequence>6</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:10:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cf7d9a770f2f1f0061981d2be1050e97</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:10:02</sys_updated_on><value>reliability_of_system</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk associated with interoperability between other investments; risk that interoperable systems will not achieve desired outcomes; risk of increased vulnerabilities between systems.</hint><inactive>false</inactive><label>Dependencies and interoperability between this investment and others</label><language>en</language><name>risk</name><sequence>7</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:11:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6fed1af70f2f1f0061981d2be1050efe</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:11:59</sys_updated_on><value>dependencies</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk associated with the loss/misuse of data or information; risk of technical problems/failures with applications; risk associated with the security/vulnerability of systems.</hint><inactive>false</inactive><label>Surety (asset protection) considerations</label><language>en</language><name>risk</name><sequence>8</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:13:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9d4edafb0f2f1f0061981d2be1050e02</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:13:29</sys_updated_on><value>surety</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk associated with choosing an investment that depends on other technologies or applications that require future procurements to be from a particular vendor or supplier.</hint><inactive>false</inactive><label>Risk of creating a monopoly for future procurements</label><language>en</language><name>risk</name><sequence>9</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:14:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>479edabf0f2f1f0061981d2be1050e6b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:14:57</sys_updated_on><value>monopoly</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk of financial management of investment, poor operational and technical controls, or reliance on vendors without appropriate cost, technical and operational controls; risk that business goals of the program or initiative will not be achieved; </hint><inactive>false</inactive><label>Capability of agency to manage the investment</label><language>en</language><name>risk</name><sequence>10</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:17:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>873fdabf0f2f1f0061981d2be1050e9d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:17:41</sys_updated_on><value>manage_investment</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk that the project/investment will not result in the desired outcomes.</hint><inactive>false</inactive><label>Overall risk of project failure</label><language>en</language><name>risk</name><sequence>11</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:19:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0aafd2ff0f2f1f0061981d2be1050e39</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:19:32</sys_updated_on><value>project_failure</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk associated with "cost creep," miscalculation of life-cycle costs, reliance on a small number of vendors without cost controls, or (poor) acquisition planning.</hint><inactive>false</inactive><label>Project resources/financial</label><language>en</language><name>risk</name><sequence>12</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:20:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0bff9aff0f2f1f0061981d2be1050ed8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:20:58</sys_updated_on><value>project_resources</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk associated with immaturity of commercially available technology and reliance on a small number of vendors; risk of technical problems/failures with applications and their ability to provide planned and desired technical functionality.</hint><inactive>false</inactive><label>Technical/technology</label><language>en</language><name>risk</name><sequence>13</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:24:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1ab06a330f6f1f0061981d2be1050eea</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:35:56</sys_updated_on><value>technical</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk associated with business goals; risk that the proposed alternative fails to result in process efficiencies and streamlining; risk that business goals of the program or initiative will not be achieved; </hint><inactive>false</inactive><label>Business/operational:</label><language>en</language><name>risk</name><sequence>14</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:36:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>afc0e2330f6f1f0061981d2be1050e11</sys_id><sys_mod_count>4</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:37:28</sys_updated_on><value>business_operational</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk associated with organizational-, agency-, or government-wide cultural resistance to change and standardization; risk associated with bypassing or lack of use or improper use or adherence to new systems and processes</hint><inactive>false</inactive><label>Organizational and change management</label><language>en</language><name>risk</name><sequence>15</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:37:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2dc3ee730f6f1f0061981d2be1050e3c</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:38:40</sys_updated_on><value>org_change</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk associated with the loss or misuse of data or information, risk of compromise of citizen or corporate privacy information; risk of increased burdens on citizens and businesses because of data collection requirements</hint><inactive>false</inactive><label>Data/information</label><language>en</language><name>risk</name><sequence>16</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:40:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>43d32e330f6f1f0061981d2be1050e68</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:41:46</sys_updated_on><value>data</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk associated with the security/vulnerability of systems, web sites, information and networks; risk of intrusions and connectivity to other (vulnerable) systems; risk associated with the evolution of credible threats;</hint><inactive>false</inactive><label>Security</label><language>en</language><name>risk</name><sequence>17</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:42:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d7746a330f6f1f0061981d2be1050eee</sys_id><sys_mod_count>4</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:43:27</sys_updated_on><value>security</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk associated with strategic/government-wide goals (i.e., President’s Management Agenda and e-Gov initiative goals);</hint><inactive>false</inactive><label>Strategic</label><language>en</language><name>risk</name><sequence>18</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:43:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>01d462b30f6f1f0061981d2be1050e4a</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:44:44</sys_updated_on><value>strategic</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_risk_categories</element><hint>Risk associated with the vulnerability of information collected on individuals or risk of vulnerability of proprietary information on businesses.</hint><inactive>false</inactive><label>Privacy</label><language>en</language><name>risk</name><sequence>19</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:45:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9935a6b30f6f1f0061981d2be1050ee4</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:45:22</sys_updated_on><value>privacy</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_risk_categories</element><name>risk</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 20:01:43</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>26e6d1730feb1f0061981d2be1050e32</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_risk_categories</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_risk_u_risk_categories</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 20:01:43</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<payload_hash>-1062066063</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>a4518ea9dbc0e300db3459b2ca961948</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fd75f2200000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Risk Categories</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>e095aeb3af6f1f001baeb8db7c5ea020</update_guid>
+<update_guid_history>e095aeb3af6f1f001baeb8db7c5ea020:-1062066063,4985aeb39f6f1f00ac27ea1355243434:911915165,c485aeb3596f1f0040d1ab14823e6619:941812270,83756eb3176f1f0042637d35e65a75f5:-1405932855,936522b33c6f1f009cc87daf816d1508:1044107792,23352eb3ec6f1f00f11f38c38150a974:-283079184,6e35ea33726f1f00ef2221e0d103ca0d:1924156898,5135e2b3f76f1f003a89597857b60772:-2144100651,2425eab3ce6f1f00473ab36077a98592:310394356,8df4a6b3246f1f00df46d0f8d64e64e2:-878825747,13d46ab3d26f1f00d2d87e4e214b0a75:400836433,c6d4ea33d16f1f00610a0d9ebf7d2986:-1029336230,45d4ee73256f1f00c32e4580f5d57942:-685116125,77b4a2b3296f1f007daf66088615b615:-53231196,91842e33256f1f00b3a9be3fedea4bb6:912428072,9c84e273666f1f00d020d7e46fe3274f:-1636763120,d3742e33016f1f008ea85b6a464e645d:852477533,d604e2b3276f1f0065e7044ee220d16a:-809286377,32e3a2b3446f1f001e9663215f040f70:-1772252133,6de362b3286f1f001f623f99c5334823:402631394,8bd32a33fe6f1f006a663f90a73ff07a:-290114224,70c362b32a6f1f008fcc4ee8a2dcd41e:1146764713,aea322b3416f1f00e1d18ed761b14934:-1878570303,85a3ae737d6f1f0014018849b0c8187d:580014686,b4932e33126f1f00812cd25136ee1871:521191966,55836233196f1f0077fe2f8e8992ea3c:-219569766,6a63ae739b6f1f00d12023054d260276:1816557072,44e02e33056f1f00d0befaed73b0c1ab:-454783195,79d02e33166f1f003b8f4e8ac45e894a:-305559326,2bc0e6336f6f1f009b955be3c63bbbbb:1801019634,83ff9aff042f1f00aa4b0e1d515844dc:1907400399,02afd2ff352f1f00b6a876d5c8938f3d:1245977604,433fdeff682f1f006f4f8827efc16b35:1419412727,079e9affe72f1f00027645353be482d5:493201777,114edafb5f2f1f0043e5c2d3fd2f4906:717091200,6fed5af7f12f1f00127c657d09018001:1522140469,837dd2ff782f1f00a16fed101403791c:-1637671232,413d9e7fb42f1f005e3923e4f646f936:2019428665,4bdcd6f7f32f1f006bb223afe185b6d4:-1527490743,a8475573c3eb1f003cc471d341da7dc6:-1349740157,90171573dfeb1f005f59bf9a35171d52:-90556289,a6e6d173e1eb1f007a7d34b2f8cacd33:-1127675990</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_risk_short_description_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="short_description" label="Risk Name" language="en" table="risk"><sys_documentation action="INSERT_OR_UPDATE"><element>short_description</element><help/><hint/><label>Risk Name</label><language>en</language><name>risk</name><plural>Risk Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2018-07-11 14:54:30</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>779df66c0f5b130061981d2be1050e38</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Risk Name</sys_name><sys_package display_value="Project Management" source="com.snc.project_management_v3">f07db62c0f5b130061981d2be1050e03</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_risk_short_description_en</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 19:59:06</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>810344387</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>a85102e9dbc0e300db3459b2ca96197b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fc38ed730000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Risk Name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>94565d33b3eb1f00502204e18cee4e13</update_guid>
+<update_guid_history>94565d33b3eb1f00502204e18cee4e13:810344387,dc5699ff01ab1f0042ffb44b1a209fa6:748784715</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_style_ea1370330fab1f0061981d2be1050ebb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><alt/><element>u_risk_score</element><name>risk</name><style>background-color:green</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 17:25:15</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ea1370330fab1f0061981d2be1050ebb</sys_id><sys_mod_count>4</sys_mod_count><sys_name>risk</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_style_ea1370330fab1f0061981d2be1050ebb</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 19:19:24</sys_updated_on><value>javascript: current.u_risk_score &lt; 6</value></sys_ui_style></record_update>]]></payload>
+<payload_hash>716010637</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>a85102e9dbc0e300db3459b2ca96197e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fc1494550000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>risk</target_name>
+<type>Style</type>
+<update_domain>global</update_domain>
+<update_guid>323d0dfb89ab1f00a047ab1a596caad8</update_guid>
+<update_guid_history>323d0dfb89ab1f00a047ab1a596caad8:716010637,1c1dc13fa6ab1f0046fe3a78902ba437:529697967,d035f073d9ab1f00b5673930a79308f8:716010637,ed74b073e5ab1f0020d7f5cbbf60aaec:-1156635675,ae1370335dab1f002a326a60fcee39bc:-887488847</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_risk_u_risk_description</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_risk_description" table="risk"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Risk Description If (event), Then (impact)&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_risk_description&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;500&lt;/max_length&gt;&lt;name&gt;risk&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dan.gruber&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-02 17:49:34&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;4978f8f30fab1f0061981d2be1050eda&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Risk Description If (event), Then (impact)&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_risk_u_risk_description&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dan.gruber&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-08-02 19:55:57&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>423644769</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>a8518ea9dbc0e300db3459b2ca96194a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fc360aca0000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Risk Description If (event), Then (impact)</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>0695953392eb1f00de806b8dc6e63359</update_guid>
+<update_guid_history>0695953392eb1f00de806b8dc6e63359:423644769,c7a87cf305ab1f00f509f924f70ae233:-648265779</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_risk_u_risk_score</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_risk_score" table="risk"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Risk Score&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_risk_score&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;10&lt;/max_length&gt;&lt;name&gt;risk&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dan.gruber&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-02 17:28:01&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;6da3b0730fab1f0061981d2be1050e9c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Risk Score&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_risk_u_risk_score&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dan.gruber&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-08-02 17:28:01&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1162148331</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>ac5102e9dbc0e300db3459b2ca96197a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fbae9c100000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Risk Score</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>9bb3f07350ab1f00042d34ebede5a720</update_guid>
+<update_guid_history>9bb3f07350ab1f00042d34ebede5a720:-1162148331,9b937073afab1f002cb0388223a03eaa:686438495,ccc8e03fc16b1f002f63e62c0431b3e2:-870009941</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_63ef83767f0000015e3e471c0dc53850</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="63ef83767f0000015e3e471c0dc53850" sys_domain="global" table="risk" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_current_status</element><position>0</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>9d12fe880f375f0061981d2be1050eda</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_risk_impact</element><position>1</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>1112fe880f375f0061981d2be1050edb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>probability</element><position>2</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>9112fe880f375f0061981d2be1050edb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_risk_score</element><position>3</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>1512fe880f375f0061981d2be1050edb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_risk_categories</element><position>4</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>9512fe880f375f0061981d2be1050edb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_program_support</element><position>5</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>1912fe880f375f0061981d2be1050edb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>6</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>9912fe880f375f0061981d2be1050edb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>task</element><position>7</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>1d12fe880f375f0061981d2be1050edb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_risk_strategy</element><position>8</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>9d12fe880f375f0061981d2be1050edb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_risk_owner</element><position>9</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>1112fe880f375f0061981d2be1050edc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_risc_date_identified</element><position>10</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>9112fe880f375f0061981d2be1050edc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cost</element><position>11</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>1512fe880f375f0061981d2be1050edc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_cost</element><position>12</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>9512fe880f375f0061981d2be1050edc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>13</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>1912fe880f375f0061981d2be1050edc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>14</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>9912fe880f375f0061981d2be1050edc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_risk_description</element><position>15</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>1d12fe880f375f0061981d2be1050edc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>mitigation</element><position>16</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>9d12fe880f375f0061981d2be1050edc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_risk_comment</element><position>17</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>1112fe880f375f0061981d2be1050edd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>18</position><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 21:18:31</sys_created_on><sys_id>9112fe880f375f0061981d2be1050edd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter><sys_ui_section caption="NULL" display_value="" name="risk" sys_domain="global" view="Default view">63ef83767f0000015e3e471c0dc53850</sys_ui_section><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 21:18:31</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>risk</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>jerrod.maint</sys_created_by><sys_created_on>2010-03-15 22:26:33</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>63ef83767f0000015e3e471c0dc53850</sys_id><sys_mod_count>0</sys_mod_count><sys_name>risk</sys_name><sys_overrides display_value="">global</sys_overrides><sys_package display_value="Project Management" source="com.snc.project_management_v3">f07db62c0f5b130061981d2be1050e03</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_63ef83767f0000015e3e471c0dc53850</sys_update_name><sys_updated_by>jerrod.maint</sys_updated_by><sys_updated_on>2010-03-15 22:26:33</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-200465555</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>ac5102e9dbc0e300db3459b2ca96197d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16501a7fed00000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>5912fe886e375f000c5734fe46a046e0</update_guid>
+<update_guid_history>5912fe886e375f000c5734fe46a046e0:-200465555,294a26c4f6375f00d70ec84c881744fc:132014654,2af866777c6f1f0000218ed233df1a57:-200465555,8ed8e277e46f1f0011798480fbb355fb:113987502,13b8a277c86f1f00e6e12b361c7b39cb:831504760,5d38ae37c26f1f008d23afb42f386b83:282764572,4e086e37cd6f1f00d59a828403843502:1826616063,f4f6aaf3f96f1f003a51a02feb633124:1577005247,5c06e6b3026f1f006f3a133e11938023:78609938,e2a611733ceb1f008c27a03b41b58796:898907733,a2f59933e0eb1f00dbb0812e58ee0f38:1846299951,ba100db78fab1f00fb06adfa8a6a5025:-145524674,eebfbcb7d6ab1f00f9fdc4ee9c5a3dab:1997628917,7ea8b8f332ab1f00bf4dd65a990270fe:480600199,ee6830f374ab1f00d73ebb43f7f8db25:-1054613328,c9d8243f126b1f00c4e3c1d64cd3b9ec:-1212353295,c0c8e0fb4b6b1f0070095f84080e1b02:-132905675,b9f6e0fba96b1f00be4fe5cfc1d4ccb2:-1569490450,5b362cbb226b1f00e922f1df9b78701b:-1769327004,8216e8bbbd6b1f00ef9c32c476cf18fe:1228184377,8a56d0f31d6b1f006a66c5350f44042e:-272866261,8e56d0f3e16b1f009382fa048891f627:1228184377</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_risk_u_program_support</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_program_support" table="risk"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Requires Program Management Support&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_program_support&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;risk&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dan.gruber&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-03 01:59:13&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;1a9862770f6f1f0061981d2be1050e94&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Requires Program Management Support&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_risk_u_program_support&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dan.gruber&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-08-03 01:59:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>981574312</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>ac518ea9dbc0e300db3459b2ca961949</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fd829f130000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Requires Program Management Support</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>d7b8a277c66f1f00c5f76ce829ac58d0</update_guid>
+<update_guid_history>d7b8a277c66f1f00c5f76ce829ac58d0:981574312</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_risk_u_risc_date_identified_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_risc_date_identified" label="Date Identified" language="en" table="risk"><sys_documentation action="INSERT_OR_UPDATE"><element>u_risc_date_identified</element><help/><hint/><label>Date Identified</label><language>en</language><name>risk</name><plural>Date Identified</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 19:57:37</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>eef599330feb1f0061981d2be1050e38</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Date Identified</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_risk_u_risc_date_identified_en</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 19:57:37</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1961695528</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>e05102e9dbc0e300db3459b2ca96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fc3792670000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Date Identified</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>26f5993339eb1f00f6e5617d098d413e</update_guid>
+<update_guid_history>26f5993339eb1f00f6e5617d098d413e:1961695528</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_risk_u_current_status</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_current_status" table="risk" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_current_status</element><hint/><inactive>false</inactive><label>Open</label><language>en</language><name>risk</name><sequence>1</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:47:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>010662f30f6f1f0061981d2be1050ecf</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:48:07</sys_updated_on><value>open</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_current_status</element><hint/><inactive>false</inactive><label>Closed</label><language>en</language><name>risk</name><sequence>2</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:48:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b2266ab30f6f1f0061981d2be1050ea2</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:48:18</sys_updated_on><value>closed</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_current_status</element><hint/><inactive>false</inactive><label>Realized as Issue - Open</label><language>en</language><name>risk</name><sequence>3</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:48:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6c5626f30f6f1f0061981d2be1050ebe</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:49:26</sys_updated_on><value>issue_open</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_current_status</element><hint/><inactive>false</inactive><label>Realized as Issue - Closed</label><language>en</language><name>risk</name><sequence>4</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:49:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ca56e2f30f6f1f0061981d2be1050efb</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:49:29</sys_updated_on><value>issue_closed</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_current_status</element><hint/><inactive>false</inactive><label>Holding off</label><language>en</language><name>risk</name><sequence>5</sequence><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:49:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bc7666f30f6f1f0061981d2be1050ed2</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:49:54</sys_updated_on><value>holding_off</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_current_status</element><name>risk</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-03 01:47:58</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3a262eb30f6f1f0061981d2be1050e2e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_current_status</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_risk_u_current_status</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-03 01:47:58</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<payload_hash>-770587118</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>e0518ea9dbc0e300db3459b2ca961948</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fd7a19870000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Current Status</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>c396e6f3376f1f00018b3b566133b53b</update_guid>
+<update_guid_history>c396e6f3376f1f00018b3b566133b53b:-770587118,3d9666f38d6f1f008dd6ace982442144:928780170,589626f3ce6f1f0001e8dd5256426c7f:-343514012,748626f3316f1f00d81511e7afc55abe:388720777,dc8626f3136f1f00e9317bb6e3d1fa86:-1768983032,da76eeb3b56f1f00d73c3e7b9dade124:-1878539105,7c7662f3746f1f00f20430d212ac6c2e:-705238272,ef5666f3176f1f00c78cb4c8bd46123d:-785875601,a25666f3ed6f1f00ded8d8f80f00ac31:-479840893,0a5666f3496f1f00f96bec712d085917:-1232376329,eb36a2f35a6f1f00b11f23256fb54459:292736970,be3662f3666f1f00d6e65136e1afcd29:1453627443,ce3662f31a6f1f009b93262c14f7e6d1:-618708052,f4366ab3f06f1f0035d01bf332a510a5:-2146225389,9726eeb3ac6f1f00c760f4d052d56d1f:1945017439,b6262eb3206f1f00316849730fa0172f:1871466358</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_risk_mitigation_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="mitigation" label="Mitigation / Response plan" language="en" table="risk"><sys_documentation action="INSERT_OR_UPDATE"><element>mitigation</element><help/><hint/><label>Mitigation / Response plan</label><language>en</language><name>risk</name><plural>Mitigation / Response plans</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2018-07-11 14:54:30</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>7b9df66c0f5b130061981d2be1050e3c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Mitigation / Response plan</sys_name><sys_package display_value="Project Management" source="com.snc.project_management_v3">f07db62c0f5b130061981d2be1050e03</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_risk_mitigation_en</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 19:56:31</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-495408741</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>e45102e9dbc0e300db3459b2ca96197b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fc36922f0000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Mitigation / Response plan</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>6eb5d5336ceb1f0007d1552d5db9c879</update_guid>
+<update_guid_history>6eb5d5336ceb1f0007d1552d5db9c879:-495408741,a6b5d5336feb1f0019ec4514923d2b71:1447110615</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_style_b6e238330fab1f0061981d2be1050ef5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><alt/><element>u_risk_score</element><name>risk</name><style>background-color:yellow</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 17:24:27</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b6e238330fab1f0061981d2be1050ef5</sys_id><sys_mod_count>4</sys_mod_count><sys_name>risk</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_style_b6e238330fab1f0061981d2be1050ef5</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 18:17:59</sys_updated_on><value>javascript: current.u_risk_score &gt;5 &amp;&amp; current.u_risk_score &lt; 15</value></sys_ui_style></record_update>]]></payload>
+<payload_hash>229940342</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>e45102e9dbc0e300db3459b2ca96197e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fbdc5b0c0000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>risk</target_name>
+<type>Style</type>
+<update_domain>global</update_domain>
+<update_guid>8b2fb0b7d6ab1f0043b1436d2712df3b</update_guid>
+<update_guid_history>8b2fb0b7d6ab1f0043b1436d2712df3b:229940342,12947073e0ab1f004a0a623c2db0237a:-1295546929,c263fc7f426b1f00b0c7771b160a1b35:1143598954,0133343358ab1f006ee7c643f8f8cd6f:-1295546929,fee23833bcab1f00f5056a5981e5bef6:1377651178</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_risk_u_risk_comment</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_risk_comment" table="risk"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Comments/Status&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_risk_comment&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Journal"&gt;journal&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;500&lt;/max_length&gt;&lt;name&gt;risk&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dan.gruber&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-02 18:22:04&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;b4ff30f70fab1f0061981d2be1050ea2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Comments/Status&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_risk_u_risk_comment&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dan.gruber&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-08-02 18:22:04&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>927179523</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>e4518ea9dbc0e300db3459b2ca96194a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fbe016790000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Comments/Status</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>fe1081f712ab1f00763d4b129b8a6d17</update_guid>
+<update_guid_history>fe1081f712ab1f00763d4b129b8a6d17:927179523</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_c35cac7f0f6b1f0061981d2be1050ee5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;risk&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="risk"&gt;u_risk_impactVALCHANGES^NQprobabilityVALCHANGES^EQ&lt;item endquery="false" field="u_risk_impact" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="probability" goto="false" newquery="true" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Calculate Risk Score&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var impact = parseInt(current.u_risk_impact);
+	var probability = parseInt(current.probability);
+	var answer = impact*probability;
+	current.u_risk_score = answer;
+	
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dan.gruber&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-02 17:15:24&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c35cac7f0f6b1f0061981d2be1050ee5&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Calculate Risk Score&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_c35cac7f0f6b1f0061981d2be1050ee5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dan.gruber&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-08-02 17:19:59&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c35cac7f0f6b1f0061981d2be1050ee5"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2055647241</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>e85102e9dbc0e300db3459b2ca96197d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fba740430000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Calculate Risk Score</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>e9e1f0336fab1f00b3da70a04062626d</update_guid>
+<update_guid_history>e9e1f0336fab1f00b3da70a04062626d:-2055647241,38a1303392ab1f00ddcd601530a3e3aa:122413612,52d0bc7f016b1f00a49ff25dbf059922:1559592172</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_risk_u_current_status</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_current_status" table="risk"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice&gt;3&lt;/choice&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Current Status&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;open&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_current_status&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Choice"&gt;choice&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;50&lt;/max_length&gt;&lt;name&gt;risk&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dan.gruber&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-03 01:47:16&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;92e522b30f6f1f0061981d2be1050e0a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Current Status&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_risk_u_current_status&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dan.gruber&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-08-03 01:50:17&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>385204642</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>e8518ea9dbc0e300db3459b2ca961949</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fd7a71140000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Current Status</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e8b666f3be6f1f00555390cb7a4fa337</update_guid>
+<update_guid_history>e8b666f3be6f1f00555390cb7a4fa337:385204642,580662f32c6f1f002d2e56d16fe0b2cc:817492341</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_risk_u_risk_impact_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_risk_impact" label="Impact" language="en" table="risk"><sys_documentation action="INSERT_OR_UPDATE"><element>u_risk_impact</element><help/><hint/><label>Impact</label><language>en</language><name>risk</name><plural>Impacts</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>dan.gruber</sys_created_by><sys_created_on>2018-08-02 16:29:03</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>97362cbb0f6b1f0061981d2be1050e1c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Impact</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_risk_u_risk_impact_en</sys_update_name><sys_updated_by>dan.gruber</sys_updated_by><sys_updated_on>2018-08-02 16:29:03</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>192244447</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>ec5102e9dbc0e300db3459b2ca96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164fb789ec70000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>risk</table>
+<target_name>Risk.Impact</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>d3366cbbca6b1f007e6e47f202b9d9d5</update_guid>
+<update_guid_history>d3366cbbca6b1f007e6e47f202b9d9d5:192244447</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_issue_u_issue_program_support</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_issue_program_support" table="issue"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Requires Program Management Support&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_issue_program_support&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;issue&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dan.gruber&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-06 11:11:35&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;1eb340810ffb9f0061981d2be1050ef4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Requires Program Management Support&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_issue_u_issue_program_support&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dan.gruber&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-08-06 11:11:35&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>29625896</payload_hash>
+<remote_update_set display_value="PPS Risk Register">64518ea9dbc0e300db3459b2ca961947</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>dan.gruber</sys_created_by>
+<sys_created_on>2018-08-20 19:52:03</sys_created_on>
+<sys_id>ec518ea9dbc0e300db3459b2ca961948</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1650eef6a9a0000001</sys_recorded_at>
+<sys_updated_by>dan.gruber</sys_updated_by>
+<sys_updated_on>2018-08-20 19:52:03</sys_updated_on>
+<table>issue</table>
+<target_name>Issue.Requires Program Management Support</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>40f3c08145fb9f00384caea790e1c991</update_guid>
+<update_guid_history>40f3c08145fb9f00384caea790e1c991:29625896</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
